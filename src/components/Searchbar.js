@@ -27,7 +27,7 @@ function Searchbar(props){
                             <option value={book} key={book} />
                          ))}
                     </datalist> */}
-                    <button type="submit" onClick={props.handleFormSubmit} className="btn btn-success col-sm-2">Search</button>
+                    <button type="submit" onClick={props.handleFormSubmit} className="btn btn-info col-sm-2">Search</button>
                     
                 </div>
             </form>
