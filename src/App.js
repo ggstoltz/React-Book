@@ -1,10 +1,11 @@
+/* eslint-disable react/jsx-no-undef */
 import React from 'react';
 import 'bootswatch/dist/lumen/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav';
-import Search from './pages/Search';
-import Saved from './pages/Saved';
-import NoMatch from './pages/NoMatch';
+import Search from './Pages/Search';
+import Saved from './Pages/Saved';
+import NoMatch from './Pages/NoMatch';
 
 function App() {
   

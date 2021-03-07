@@ -1,6 +1,7 @@
+/* eslint-disable react/jsx-no-undef */
 import React, { Component } from 'react';
 import { Row, Container } from '../components/Grid';
-import { BookList, BookListItem } from '../components/BookList';
+import { BookList, BookListItem } from '../components/Booklist';
 import API from '../utils/API';
 
 class Search extends Component {
